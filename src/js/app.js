@@ -36,8 +36,8 @@ function render(variables = {}) {
             ? variables.name
             : "Your name")} ${(variables.lastname = variables.lastname
     ? variables.lastname
-    : "Your lastname")}          <h2>${(variables.rol = variables.rol
-    ? variables.rol
+    : "Your lastname")}          <h2>${(variables.role = variables.role
+    ? variables.role
     : "Web Developer")}</h2>
           <h3>${(variables.city = variables.city
             ? variables.city
